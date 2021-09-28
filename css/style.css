@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #f6f8f9;
+    font-family: 'Roboto', arial;
+}
+
+/* header  */
+header{
+    height: 125px;
+    width: 100%;
+    background-color: white;
+}
+
+#title{
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 125px;
+    vertical-align: top;
+}
+
+header img{
+    height: 85px;
+    margin: 20px 5px 20px 35px;
+    display: inline-block;
+}
+/* /header  */
+
