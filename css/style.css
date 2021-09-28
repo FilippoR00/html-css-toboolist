@@ -65,3 +65,38 @@ hr{
     border: 2px solid #f6f8f9;
 }
 /* /add buttons */
+
+.list{
+    padding: 40px 0px 0px 80px;
+    font-size: 30px;
+}
+
+.list::before{
+    content: "\0023F7";
+}
+
+.activity{
+    font-size: 25px;
+    padding-top: 10px;
+}
+
+.done::before{
+    content: "\01F5F8";
+    font-weight: 900;
+    color: #64c0a9;
+    font-size: 15px;
+    padding: 0px 5px;
+    border: 2px solid #64c0a9;
+    border-radius: 100%;
+    margin-right: 15px;
+}
+
+.editorial::after{
+    content: "Editorial";
+    font-size: 15px;
+    color: white;
+    padding: 10px 15px;
+    background-color: #45abea;
+    border-radius: 15px;
+}
+
